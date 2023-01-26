@@ -69,6 +69,7 @@ public class FoodTruckApp {
 				break;
 			case 4:
 				System.out.println("Quiting Program. \nThank you for using The Food Truck App! ");
+				scan.close();
 				keepGoing = false;
 				return;
 			default:
@@ -102,7 +103,7 @@ public class FoodTruckApp {
 			total = sumRating / count;
 
 		}
-		System.out.println("Average Rating of all Food Trucks: " + " " + ((float)Math.round(total*10)/10));
+		System.out.println("Average Rating of all Food Trucks: " + " " + ((float) Math.round(total * 10) / 10));
 	}
 
 	public void highRate(Foodtruck[] fleet) {

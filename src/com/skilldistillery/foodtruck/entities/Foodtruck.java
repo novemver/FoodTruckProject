@@ -1,7 +1,7 @@
 package com.skilldistillery.foodtruck.entities;
 
 public class Foodtruck {
-	
+
 	private static int nextTruckId = 0;
 	private String name;
 	private String foodType;
@@ -76,4 +76,3 @@ public class Foodtruck {
 	}
 
 }
-
